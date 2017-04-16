@@ -1,0 +1,119 @@
+body
+{
+    font-family: 'Helvetica';
+
+    background-color: #d2d8dc;
+}
+table
+{
+    display: table !important;
+
+    border-spacing: 0 !important;
+    border-collapse: collapse !important;
+
+    border-color: grey !important;
+}
+.tabla-header
+{
+    background-color: green !important;
+}
+.tabla-header td
+{
+    font-size: 40px;
+
+    margin: 0;
+    padding: 10px 0 !important;
+
+    text-align: center;
+
+    color: #fff;
+}
+.tabla-resultados
+{
+    width: 50%;
+    min-width: 900px;
+    margin: 0 auto;
+
+    text-align: center;
+
+    box-shadow: 0 0 5px #888;
+}
+.partido
+{
+    transition: .1s ease-in-out;
+}
+.partido:hover
+{
+    transition: .1s ease-in-out;
+
+    background-color: #ccc !important;
+}
+.tabla-resultados tr:nth-child(odd)
+{
+    background-color: #eee;
+}
+.tabla-resultados tr:nth-child(even)
+{
+    background-color: #fff;
+}
+.tabla-resultados tr td
+{
+    padding: 5px 0;
+}
+.tabla-resultados tr td a
+{
+    text-decoration: none;
+
+    color: #000;
+}
+.tabla-resultados a:hover
+{
+    text-decoration: underline !important;
+}
+.nombre-equipo
+{
+    font-weight: bold;
+
+    text-align: left;
+}
+.tabla-caption
+{
+    font-weight: bold;
+
+    color: #fff;
+    background-color: #222 !important;
+}
+.tabla-caption td
+{
+    padding: 10px 0 !important;
+}
+.tabla-caption td a
+{
+    text-decoration: none !important;
+
+    color: #fff !important;
+}
+.tabla-caption a:hover
+{
+    text-decoration: underline !important;
+}
+.nombre-local
+{
+    padding-right: 10px !important;
+
+    text-align: right;
+}
+.nombre-visitante
+{
+    padding-left: 10px !important;
+
+    text-align: left;
+}
+.goles
+{
+    width: 100px;
+
+    color: #fff;
+    background-color: #222;
+    box-shadow: 0 0 5px #888;
+}

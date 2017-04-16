@@ -1,0 +1,204 @@
+body
+{
+    font-family: 'Helvetica';
+
+    background-color: #d2d8dc;
+}
+table
+{
+    display: table !important;
+
+    border-spacing: 0 !important;
+    border-collapse: collapse !important;
+
+    border-color: grey !important;
+}
+.tabla-header
+{
+    background-color: green !important;
+}
+.tabla-header td
+{
+    font-size: 40px;
+
+    margin: 0;
+    padding: 10px 0 !important;
+
+    text-align: center;
+
+    color: #fff;
+}
+.tabla-clasificacion,
+.tabla-resultados
+{
+    width: 50%;
+    min-width: 900px;
+    margin: 0 auto;
+
+    text-align: center;
+
+    box-shadow: 0 0 5px #888;
+}
+.partido
+{
+    transition: .1s ease-in-out;
+}
+.partido:hover
+{
+    transition: .1s ease-in-out;
+
+    background-color: #ccc !important;
+}
+.tabla-clasificacion tr:nth-child(odd),
+.tabla-resultados tr:nth-child(odd)
+{
+    background-color: #eee;
+}
+.tabla-clasificacion tr:nth-child(even),
+.tabla-resultados tr:nth-child(even)
+{
+    background-color: #fff;
+}
+.tabla-clasificacion tr td,
+.tabla-resultados tr td
+{
+    padding: 5px 0;
+}
+.tabla-clasificacion tr td a,
+.tabla-resultados tr td a
+{
+    text-decoration: none;
+
+    color: #000;
+}
+.nombre-equipo
+{
+    font-weight: bold;
+
+    text-align: left;
+}
+.nombre-equipo a
+{
+    text-decoration: none;
+
+    color: #000;
+}
+.puntos-equipo
+{
+    font-weight: bold;
+}
+.partidos-jugados
+{
+    border-right: 1px solid #eee;
+}
+.partidos-perdidos
+{
+    border-right: 1px solid #eee;
+}
+.tabla-caption
+{
+    font-weight: bold;
+
+    color: #fff;
+    background-color: #222 !important;
+}
+.tabla-caption td
+{
+    padding: 10px 0 !important;
+}
+.tabla-datos
+{
+    font-weight: bold;
+
+    border-bottom: 1px solid #ccc;
+    background-color: #fff !important;
+}
+.tabla-datos td
+{
+    padding: 10px 0 !important;
+}
+.champions-league
+{
+    font-weight: bold;
+
+    color: #fff;
+    background-color: #001ab4;
+    box-shadow: 0 0 1px #fff;
+}
+.europa-league
+{
+    font-weight: bold;
+
+    color: #fff;
+    background-color: green;
+    box-shadow: 0 0 1px #fff;
+}
+.descenso
+{
+    font-weight: bold;
+
+    color: #fff;
+    background-color: #a00;
+    box-shadow: 0 0 1px #fff;
+}
+.default
+{
+    font-weight: bold;
+
+    color: #fff;
+    background-color: #444;
+    box-shadow: 0 0 1px #fff;
+}
+.tabla-resultados
+{
+    margin-top: 50px;
+}
+.tabla-leyenda
+{
+    width: 50%;
+    min-width: 900px;
+    margin: 0 auto;
+    margin-top: 10px;
+
+    box-shadow: 0 0 5px #888;
+}
+.tabla-leyenda tr:nth-child(odd)
+{
+    background-color: #eee;
+}
+.tabla-leyenda tr:nth-child(even)
+{
+    background-color: #fff;
+}
+.tabla-leyenda tr td
+{
+    font-weight: bold;
+
+    padding-left: 10px;
+}
+.tabla-leyenda tr td:first-child
+{
+    width: 38px;
+    height: 32px;
+    padding-left: 0;
+}
+.nombre-local
+{
+    padding-right: 10px !important;
+
+    text-align: right;
+}
+.nombre-visitante
+{
+    padding-left: 10px !important;
+
+    text-align: left;
+}
+.goles
+{
+    width: 100px;
+
+    color: #fff;
+    background-color: #222;
+    box-shadow: 0 0 5px #888;
+}
