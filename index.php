@@ -66,8 +66,11 @@
                                         if ($estadoPartido == "POSTPONED") {
                                             echo "<td class='goles'>" . "Aplazado" . "</td>";
                                         }
+                                        if ($estadoPartido == "CANCELED") {
+                                            echo "<td class='goles'>" . "Cancelado" . "</td>";
+                                        }
                                         echo "<td class='nombre-local'>" . "<a href='equipo.php?idEquipo=$idEquipoLocal'>" . $nombreLocal . "</a>" . "</td>";
-                                        if ($estadoPartido == "TIMED" || $estadoPartido == "SCHEDULED") {
+                                        if ($estadoPartido == "TIMED" || $estadoPartido == "SCHEDULED" || $estadoPartido == "POSTPONED" || $estadoPartido == "CANCELED") {
                                             echo "<td class='goles'>" . " - " . "</td>";
                                         }
                                         if ($estadoPartido == "IN_PLAY") {

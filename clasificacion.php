@@ -165,6 +165,9 @@
                                         if ($estadoPartido == "POSTPONED") {
                                             echo "<td class='goles'>" . "Aplazado" . "</td>";
                                         }
+                                        if ($estadoPartido == "CANCELED") {
+                                            echo "<td class='goles'>" . "Cancelado" . "</td>";
+                                        }
                                         echo "<td class='nombre-visitante'>" . "<a href='equipo.php?idEquipo=$idEquipoVisitante'>" . $nombreVisitante . "</a>" . "</td>";
                                     echo "</tr>";
                                 }
