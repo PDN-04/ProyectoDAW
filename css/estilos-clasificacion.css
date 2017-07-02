@@ -28,6 +28,17 @@ table
 
     color: #fff;
 }
+.tabla-header td img
+{
+    height: 100px;
+    margin: 0 20px;
+
+    vertical-align: middle;
+}
+.tabla-header td span
+{
+    vertical-align: middle;
+}
 .tabla-clasificacion,
 .tabla-resultados
 {
@@ -38,6 +49,10 @@ table
     text-align: center;
 
     box-shadow: 0 0 5px #888;
+}
+.tabla-clasificacion
+{
+    margin-bottom: 10px;
 }
 .partido
 {
@@ -87,11 +102,19 @@ table
 {
     font-weight: bold;
 }
-.partidos-jugados
+.tabla-clasificacion tr:nth-child(odd) .partidos-jugados
+{
+    border-right: 1px solid #fff;
+}
+.tabla-clasificacion tr:nth-child(even) .partidos-jugados
 {
     border-right: 1px solid #eee;
 }
-.partidos-perdidos
+.tabla-clasificacion tr:nth-child(odd) .partidos-perdidos
+{
+    border-right: 1px solid #fff;
+}
+.tabla-clasificacion tr:nth-child(even) .partidos-perdidos
 {
     border-right: 1px solid #eee;
 }
@@ -149,16 +172,11 @@ table
     background-color: #444;
     box-shadow: 0 0 1px #fff;
 }
-.tabla-resultados
-{
-    margin-top: 50px;
-}
 .tabla-leyenda
 {
     width: 50%;
     min-width: 900px;
     margin: 0 auto;
-    margin-top: 10px;
 
     box-shadow: 0 0 5px #888;
 }
@@ -182,17 +200,44 @@ table
     height: 32px;
     padding-left: 0;
 }
+.tabla-leyenda,
+.tabla-resultados
+{
+    margin-bottom: 50px;
+}
 .nombre-local
 {
+    width: 350px;
     padding-right: 10px !important;
 
     text-align: right;
 }
 .nombre-visitante
 {
+    width: 350px;
     padding-left: 10px !important;
 
     text-align: left;
+}
+.escudo-local
+{
+    width: 50px;
+
+    text-align: center;
+}
+.escudo-visitante
+{
+    width: 50px;
+
+    text-align: center;
+}
+.escudo-local img
+{
+    vertical-align: middle;
+}
+.escudo-visitante img
+{
+    vertical-align: middle;
 }
 .goles
 {

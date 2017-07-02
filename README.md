@@ -1,9 +1,27 @@
-# phplib-football-data
-Small library that implements some functionalities of football-data.org's API.
+# ScoreBoard
 
-See the code in index.php on how to use the library, which should (only) serve you as a starting point. I didn't take much care of variable visibility, maybe I also missed to meet some up-to-date PHP coding standards. I just coded it down so it is readable, workable and understandable ;)
+Aplicación web para la visualización de datos en tiempo real (actualmente esta versión muestra los datos del día 21-05-2017).
 
-Setup a webserver and call the index.php in a browser. Afterwards check the code to see how these results are achieved.
+## Estructura de directorios:
+```
+ScoreBoard
+   └───README.md
+   └───css/
+   └───images/
+   └───js/
+   └───models/
+   └─── clasificacion.php
+   └─── competicion.php
+   └─── config.ini
+   └─── equipo.php
+   └─── error.php
+   └─── FootballData.php
+   └─── functions.php
+   └─── index.php
+   └─── partido.php
+```
 
-Best,
-daniel
+## ¿Cómo ver la aplicación?
+	Acceder a http://pdominguez.hol.es/
+## ¿Cómo desplegar la aplicación?
+	Subir todos los archivos a un servidor web que permita el uso de REST

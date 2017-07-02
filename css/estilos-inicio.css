@@ -13,26 +13,12 @@ table
 
     border-color: grey !important;
 }
-.tabla-header
-{
-    background-color: green !important;
-}
-.tabla-header td
-{
-    font-size: 40px;
-
-    margin: 0;
-    padding: 10px 0 !important;
-
-    text-align: center;
-
-    color: #fff;
-}
 .tabla-resultados
 {
     width: 50%;
     min-width: 900px;
     margin: 0 auto;
+    margin-bottom: 50px;
 
     text-align: center;
 
@@ -70,25 +56,25 @@ table
 {
     text-decoration: underline !important;
 }
-.nombre-equipo
-{
-    font-weight: bold;
-
-    text-align: left;
-}
 .tabla-caption
 {
-    font-weight: bold;
-
     color: #fff;
-    background-color: #222 !important;
+    background-color: green !important;
 }
 .tabla-caption td
 {
-    padding: 10px 0 !important;
+    padding: 5px 0 5px 100px !important;
+}
+.tabla-caption td img
+{
+    height: 30px;
+    margin: 0 10px;
+
+    vertical-align: middle;
 }
 .tabla-caption td a
 {
+    vertical-align: middle;
     text-decoration: none !important;
 
     color: #fff !important;
@@ -99,15 +85,37 @@ table
 }
 .nombre-local
 {
+    width: 300px;
     padding-right: 10px !important;
 
     text-align: right;
 }
 .nombre-visitante
 {
+    width: 300px;
     padding-left: 10px !important;
 
     text-align: left;
+}
+.escudo-local
+{
+    width: 50px;
+
+    text-align: center;
+}
+.escudo-visitante
+{
+    width: 50px;
+
+    text-align: center;
+}
+.escudo-local img
+{
+    vertical-align: middle;
+}
+.escudo-visitante img
+{
+    vertical-align: middle;
 }
 .goles
 {
@@ -116,4 +124,15 @@ table
     color: #fff;
     background-color: #222;
     box-shadow: 0 0 5px #888;
+}
+.error
+{
+    margin-top: 150px;
+
+    text-align: center;
+}
+.error h1,
+.error h4
+{
+    font-weight: normal;
 }

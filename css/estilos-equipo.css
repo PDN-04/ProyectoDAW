@@ -1,10 +1,8 @@
 body
 {
     font-family: 'Helvetica';
-}
-h1
-{
-    text-align: center;
+
+    background-color: #d2d8dc;
 }
 table
 {
@@ -15,83 +13,256 @@ table
 
     border-color: grey !important;
 }
-.tabla-equipo
+.tabla-equipo,
+.tabla-plantilla,
+.tabla-resultados
 {
-    width: 80%;
+    width: 50%;
+    min-width: 900px;
     margin: 0 auto;
 
     text-align: center;
 
-    background-color: #ccc;
+    box-shadow: 0 0 5px #888;
 }
-.tabla-equipo td
+.tabla-equipo tr:nth-child(odd),
+.tabla-plantilla tr:nth-child(odd),
+.tabla-resultados tr:nth-child(odd)
 {
-    width: 200px;
-    height: 200px;
-
-    text-align: center;
-
-    background-color: #ddd;
+    background-color: #eee;
 }
-.tabla-equipo td img
+.tabla-equipo tr:nth-child(even),
+.tabla-plantilla tr:nth-child(even),
+.tabla-resultados tr:nth-child(even)
 {
-    line-height: 200px;
-
-    max-height: 150px;
+    background-color: #fff;
 }
-.nombre-equipo
+.tabla-equipo tr td,
+.tabla-plantilla tr td,
+.tabla-resultados tr td
+{
+    padding: 5px 0;
+}
+.tabla-resultados tr td a
+{
+    text-decoration: none;
+
+    color: #000;
+}
+.tabla-header
+{
+    background-color: green !important;
+}
+.tabla-header td
 {
     font-size: 40px;
-}
-.valor-equipo
-{
-    font-size: 30px;
-}
-.tabla-plantilla
-{
-    width: 80%;
-    margin: 0 auto;
-}
-.tabla-jugador
-{
-    min-width: 300px;
-    height: 150px;
-}
-.dorsal-jugador
-{
-    float: left;
 
-    width: 30%;
+    margin: 0;
+    padding: 10px 0 !important;
 
-    background-color: #ccc;
+    text-align: center;
+
+    color: #fff;
 }
-.dorsal-jugador span
+.tabla-header td img
 {
-    font-size: 50px;
-    line-height: 150px;
+    height: 100px;
+    margin: 0 20px;
 
-    display: block;
+    vertical-align: middle;
+}
+.tabla-header td span
+{
+    vertical-align: middle;
+}
+.escudo-equipo
+{
+    width: 200px;
+}
+.tabla-caption
+{
+    font-weight: bold;
+
+    color: #fff;
+    background-color: #222 !important;
+}
+.tabla-caption td
+{
+    padding: 10px 0 !important;
+}
+.nombre-equipo td:nth-child(odd),
+.valor-equipo td:nth-child(odd)
+{
+    padding-left: 30px;
+
+    text-align: left;
+}
+.nombre-equipo td:nth-child(even),
+.valor-equipo td:nth-child(even)
+{
+    font-weight: bold;
+
+    padding-right: 30px;
+
+    text-align: right;
+}
+.nombre-equipo td:nth-of-type(2)
+{
+    border-right: 1px solid #fff;
+}
+.valor-equipo td:nth-of-type(2)
+{
+    border-right: 1px solid #eee;
+}
+.tabla-equipo,
+.tabla-plantilla,
+.tabla-resultados
+{
+    margin-bottom: 50px;
+}
+.tabla-datos
+{
+    font-weight: bold;
+
+    border-bottom: 1px solid #ccc;
+    background-color: #fff !important;
+}
+.tabla-datos td
+{
+    padding: 10px 0 !important;
+}
+.victoria
+{
+    display: inline-block;
+
+    margin: 0 1px;
+    padding: 1px 4.75px;
+
+    text-align: center;
+    vertical-align: middle;
+
+    color: white;
+    border-radius: 3px;
+    background: green;
+}
+.empate
+{
+    display: inline-block;
+
+    margin: 0 1px;
+    padding: 1px 4.75px;
+
+    text-align: center;
+    vertical-align: middle;
+
+    color: white;
+    border-radius: 3px;
+    background: #ad7b16;
+}
+.derrota
+{
+    display: inline-block;
+
+    margin: 0 1px;
+    padding: 1px 4.75px;
+
+    text-align: center;
+    vertical-align: middle;
+
+    color: white;
+    border-radius: 3px;
+    background: #a00;
+}
+.jugador td:first-child
+{
+    width: 75px;
+}
+.jugador td:nth-of-type(2)
+{
+    font-weight: bold;
+
+    width: 200px;
+    padding: 5px 20px;
+
+    text-align: right;
+}
+.jugador td:nth-of-type(3)
+{
+    text-align: left;
+}
+.portero
+{
+    color: #fff;
+    background-color: #a00;
+    box-shadow: 0 0 1px #fff;
+}
+.defensa
+{
+    color: #fff;
+    background-color: #ad7b16;
+    box-shadow: 0 0 1px #fff;
+}
+.medio
+{
+    color: #fff;
+    background-color: green;
+    box-shadow: 0 0 1px #fff;
+}
+.delantero
+{
+    color: #fff;
+    background-color: #001ab4;
+    box-shadow: 0 0 1px #fff;
+}
+.partido
+{
+    transition: .1s ease-in-out;
+}
+.partido:hover
+{
+    transition: .1s ease-in-out;
+
+    background-color: #ccc !important;
+}
+.nombre-local
+{
+    width: 350px;
+    padding-right: 10px !important;
+
+    text-align: right;
+}
+.nombre-visitante
+{
+    width: 350px;
+    padding-left: 10px !important;
+
+    text-align: left;
+}
+.escudo-local
+{
+    width: 50px;
 
     text-align: center;
 }
-.info-jugador
+.escudo-visitante
 {
-    display: flex;
-    float: left;
-    flex-direction: column;
+    width: 50px;
 
-    width: 70%;
-    height: 100%;
-
-    background-color: #ddd;
-
-    justify-content: space-around;
-}
-.info-jugador span
-{
-    display: block;
-}
-.nombre-jugador
-{
     text-align: center;
+}
+.escudo-local img
+{
+    vertical-align: middle;
+}
+.escudo-visitante img
+{
+    vertical-align: middle;
+}
+.goles
+{
+    width: 100px;
+
+    color: #fff;
+    background-color: #222;
+    box-shadow: 0 0 5px #888;
 }

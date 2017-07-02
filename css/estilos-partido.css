@@ -1,0 +1,219 @@
+body
+{
+    font-family: 'Helvetica';
+
+    background-color: #d2d8dc;
+}
+
+table
+{
+    display: table !important;
+
+    border-spacing: 0 !important;
+    border-collapse: collapse !important;
+
+    border-color: grey !important;
+}
+
+.tabla-resultados,
+.tabla-apuestas,
+.tabla-partidos
+{
+    width: 50%;
+    min-width: 900px;
+    margin: 0 auto;
+
+    text-align: center;
+
+    box-shadow: 0 0 5px #888;
+}
+
+.tabla-resultados tr,
+.tabla-apuestas tr
+{
+    background-color: #fff;
+}
+
+.tabla-resultados tr td,
+.tabla-apuestas tr td
+{
+    padding: 5px 0;
+}
+
+.tabla-resultados tr td a,
+.tabla-resultados tr td a
+{
+    text-decoration: none;
+
+    color: #000;
+}
+
+.tabla-header
+{
+    background-color: green !important;
+}
+
+.tabla-header td
+{
+    font-size: 40px;
+
+    margin: 0;
+    padding: 10px 0 !important;
+
+    text-align: center;
+
+    color: #fff;
+}
+
+.tabla-header td img
+{
+    height: 100px;
+    margin: 0 20px;
+
+    vertical-align: middle;
+}
+.tabla-header td span
+{
+    vertical-align: middle;
+}
+.escudo-equipo
+{
+    width: 200px;
+}
+
+.tabla-caption
+{
+    font-weight: bold;
+
+    color: #fff;
+    background-color: #222 !important;
+}
+
+.tabla-caption td
+{
+    padding: 10px 0 !important;
+}
+.tabla-datos
+{
+    font-weight: bold;
+
+    border-bottom: 1px solid #ccc;
+    background-color: #fff !important;
+}
+.nombre-local
+{
+    width: 350px;
+    padding-right: 10px !important;
+
+    text-align: right;
+}
+
+.nombre-visitante
+{
+    width: 350px;
+    padding-left: 10px !important;
+
+    text-align: left;
+}
+
+.escudo-local
+{
+    width: 300px;
+
+    text-align: center;
+}
+
+.escudo-visitante
+{
+    width: 300px;
+
+    text-align: center;
+}
+
+.escudo-local img
+{
+    vertical-align: middle;
+}
+
+.escudo-visitante img
+{
+    vertical-align: middle;
+}
+
+.goles
+{
+    font-size: 75px;
+    font-weight: normal;
+
+    width: 300px;
+}
+.tabla-resultados,
+.tabla-apuestas,
+.tabla-partidos
+{
+    margin-bottom: 50px;
+}
+.tabla-partidos tr:nth-child(odd)
+{
+    background-color: #eee;
+}
+.tabla-partidos tr:nth-child(even)
+{
+    background-color: #fff;
+}
+.tabla-partidos tr td
+{
+    padding: 5px 0;
+}
+.tabla-partidos tr td a
+{
+    text-decoration: none;
+
+    color: #000;
+}
+.tabla-apuestas tr td
+{
+    width: 300px;
+}
+.h2h-goles
+{
+    width: 100px;
+
+    color: #fff;
+    background-color: #222;
+    box-shadow: 0 0 5px #888;
+}
+.h2h-nombre-local
+{
+    width: 350px;
+    padding-right: 10px !important;
+
+    text-align: right;
+}
+.h2h-nombre-visitante
+{
+    width: 350px;
+    padding-left: 10px !important;
+
+    text-align: left;
+}
+.h2h-escudo-local
+{
+    width: 50px;
+
+    text-align: center;
+}
+.h2h-escudo-visitante
+{
+    width: 50px;
+
+    text-align: center;
+}
+.h2h-escudo-local img
+{
+    vertical-align: middle;
+}
+.h2h-escudo-visitante img
+{
+    vertical-align: middle;
+}
