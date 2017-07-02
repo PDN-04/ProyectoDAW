@@ -10,15 +10,15 @@ ScoreBoard
    └───images/
    └───js/
    └───models/
-   └─── clasificacion.php
-   └─── competicion.php
-   └─── config.ini
-   └─── equipo.php
-   └─── error.php
-   └─── FootballData.php
-   └─── functions.php
-   └─── index.php
-   └─── partido.php
+   └───clasificacion.php
+   └───competicion.php
+   └───config.ini
+   └───equipo.php
+   └───error.php
+   └───FootballData.php
+   └───functions.php
+   └───index.php
+   └───partido.php
 ```
 
 ## ¿Cómo ver la aplicación?
